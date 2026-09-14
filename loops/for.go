@@ -32,4 +32,10 @@ func main() {
 	for a := range 10 {
 		fmt.Println("a value is ", a)
 	}
+
+	array := []int{1, 2, 3, 4, 5}
+
+	for _, item := range array {
+		fmt.Println("item value is ", item)
+	}
 }
